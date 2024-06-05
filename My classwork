@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+int a=5,b=6,c=10,d=11,e;
+e=a+b+c;
+printf("e=%d\n",e);
+int rem;
+rem=d%c;
+printf("rem=%d\n",rem);
+rem=++rem;
+printf("++rem=%d\n",rem);
+rem=--rem
+printf("--rem=%d\n",rem);
+rem+=e
+printf("rem+e=%d\n",rem);
+rem-=e
+printf("rem-e=%d\n",rem);
